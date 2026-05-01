@@ -5,7 +5,7 @@ import { NavLink } from "react-router";
 const NavBar = () => {
   
     const linkStyle = ({ isActive }) =>
-    isActive ? "text-white bg-[#244D3F] font-bold px-[18px] py-[4px] rounded" : "text-gray-600";
+    isActive ? "text-white bg-[#244D3F] font-bold px-[18px] py-[4px] rounded" : "text-[#64748B]";
   
     return (
     <div className="flex justify-between p-4 shadow">
