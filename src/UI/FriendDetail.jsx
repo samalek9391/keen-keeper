@@ -90,7 +90,7 @@ const handleAction = (type) => {
         <p className="text-sm text-gray-500 mt-2">{email}</p>
 
         {/* Buttons */}
-        <div className="flex justify-center gap-3 mt-6">
+        <div className="grid grid-cols-1 gap-3 mt-6">
           <button className="bg-yellow-400 px-3 py-2 rounded">⏰ Snooze</button>
           <button className="bg-blue-400 px-3 py-2 rounded text-white">📦 Archive</button>
           <button className="bg-red-500 px-3 py-2 rounded text-white">🗑️ Delete</button>

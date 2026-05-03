@@ -32,7 +32,7 @@ export const router = createBrowserRouter([
                 loader: async () => {
                 const res = await fetch("/friendsData.json");
                 return res.json(); // ✅ MUST
-                }
+                },
             },
         ]
     }
