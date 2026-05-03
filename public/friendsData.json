@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Ahmed",
+    "picture": "https://i.pravatar.cc/150?img=11",
+    "email": "rahim.ahmed@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "We studied BBA together and used to work on group projects. Still one of my closest friends.",
+    "goal": 14,
+    "next_due_date": "2026-05-05"
+  },
+  {
+    "id": 2,
+    "name": "Karim Hasan",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "karim.hasan@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["office", "team"],
+    "bio": "Works with me in the office. We collaborate on digital marketing campaigns.",
+    "goal": 10,
+    "next_due_date": "2026-05-18"
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.pravatar.cc/150?img=13",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["university", "friend"],
+    "bio": "Met during university events. We share similar interests in business and startups.",
+    "goal": 14,
+    "next_due_date": "2026-05-08"
+  },
+  {
+    "id": 4,
+    "name": "Tanvir Islam",
+    "picture": "https://i.pravatar.cc/150?img=14",
+    "email": "tanvir.islam@gmail.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["school", "old friend"],
+    "bio": "We were classmates in school. Haven’t talked much recently but want to reconnect.",
+    "goal": 15,
+    "next_due_date": "2026-05-02"
+  },
+  {
+    "id": 5,
+    "name": "Sadia Rahman",
+    "picture": "https://i.pravatar.cc/150?img=15",
+    "email": "sadia.rahman@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["family", "cousin"],
+    "bio": "My cousin. We regularly catch up and share family updates.",
+    "goal": 7,
+    "next_due_date": "2026-05-12"
+  },
+  {
+    "id": 6,
+    "name": "Imran Hossain",
+    "picture": "https://i.pravatar.cc/150?img=16",
+    "email": "imran.hossain@gmail.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["gym", "fitness buddy"],
+    "bio": "We go to the gym together and motivate each other to stay fit.",
+    "goal": 12,
+    "next_due_date": "2026-05-07"
+  },
+  {
+    "id": 7,
+    "name": "Farzana Akter",
+    "picture": "https://i.pravatar.cc/150?img=17",
+    "email": "farzana.akter@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["neighbor", "family friend"],
+    "bio": "Lives nearby. Our families are very close and often visit each other.",
+    "goal": 14,
+    "next_due_date": "2026-05-03"
+  },
+  {
+    "id": 8,
+    "name": "Mehedi Hasan",
+    "picture": "https://i.pravatar.cc/150?img=18",
+    "email": "mehedi.hasan@gmail.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["freelancer", "work"],
+    "bio": "Freelancer friend. We discuss client work and online business strategies.",
+    "goal": 10,
+    "next_due_date": "2026-05-15"
+  }
+]
