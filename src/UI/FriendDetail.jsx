@@ -45,9 +45,9 @@ const handleAction = (type) => {
 
     // Status color
   const statusStyle = {
-    "overdue": "bg-red-400 text-white",
-    "almost due": "bg-orange-400 text-white",
-    "on-track": "bg-green-400 text-white",
+    "overdue": "bg-red-600 text-white",
+    "almost due": "bg-orange-300 text-white",
+    "on-track": "bg-green-900 text-white",
   };
 
 
@@ -56,11 +56,11 @@ const handleAction = (type) => {
   // };
 
     return (
-        <div>
+        <div className='bg-[#F8FAFC]'>
    <div className="p-6 grid md:grid-cols-2 gap-6">
       
       {/* LEFT SIDE */}
-      <div className="bg-gray-100 rounded-xl p-6 shadow text-center">
+      <div className="bg-white rounded-xl p-6 shadow text-center">
         
         <img
           src={picture}
@@ -91,9 +91,9 @@ const handleAction = (type) => {
 
         {/* Buttons */}
         <div className="grid grid-cols-1 gap-3 mt-6">
-          <button className="bg-yellow-400 px-3 py-2 rounded">⏰ Snooze</button>
-          <button className="bg-blue-400 px-3 py-2 rounded text-white">📦 Archive</button>
-          <button className="bg-red-500 px-3 py-2 rounded text-white">🗑️ Delete</button>
+          <button className="bg-[#E9E9E9] px-3 py-2 rounded text-[#1F2937]">⏰ Snooze</button>
+          <button className="bg-[#E9E9E9] px-3 py-2 rounded text-[#1F2937]">📦 Archive</button>
+          <button className="bg-[#E9E9E9] px-3 py-2 rounded text-[#EF4444]">🗑️ Delete</button>
         </div>
       </div>
 
