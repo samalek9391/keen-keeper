@@ -5,6 +5,7 @@ import Timeline from "../Pages/Timeline/Timeline";
 import States from "../Pages/Timeline/States/States";
 import FriendCard from "../UI/FriendCard";
 import FriendDetail from "../UI/FriendDetail";
+import NotFound from "../Components/NotFound";
 
 export const router = createBrowserRouter([
     {
@@ -34,6 +35,11 @@ export const router = createBrowserRouter([
                 return res.json(); // ✅ MUST
                 },
             },
-        ]
-    }
+        ],
+    },
+
+    {
+        path: "*",
+        Component: NotFound,
+    },
 ])
