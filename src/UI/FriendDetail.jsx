@@ -39,7 +39,7 @@ const handleAction = (type) => {
     date: new Date(),
   });
 
-  toast.success(`${type} added!`);
+  toast.success(`${type} with ${name}.`);
 };
 
     // Status color
