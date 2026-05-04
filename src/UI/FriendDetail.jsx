@@ -12,7 +12,6 @@ const FriendDetail = () => {
 
     const friend = friends.find((f) => f.id == id);
 
-    console.log(id);
 
     if (!friend) {
     return <h2>Friend not found</h2>;
